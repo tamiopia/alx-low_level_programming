@@ -1,2 +1,0 @@
-#!/bin/bash
-gcc -C $CFILE -o ${CFILE::-2}".0"
