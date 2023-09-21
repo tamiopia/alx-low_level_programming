@@ -1,12 +1,11 @@
 #include <stdio.h>
-#include <stdlib.h>
+
 /**
- *main - entry point
- *print the message
- *Return: Always 0(success)
+ * main - function to start any c program
+ * Return: 0 value
  */
 int main(void)
 {
-printf("with proper grammar, but the outcome is a piece of art,\n");
-return (0);
+	printf("with proper grammar, but the outcome is a piece of art,\n");
+	return (0);
 }

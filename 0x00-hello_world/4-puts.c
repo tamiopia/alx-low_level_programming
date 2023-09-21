@@ -1,11 +1,11 @@
 #include <stdio.h>
+
 /**
- *main - main entry
- *print the message
- *Return: Always 0(success)
- **/
+ * main - function to start any c program
+ * Return: 0 value
+ */
 int main(void)
 {
-puts("\"Programming is like building a multilingual puzzle");
-return (0);
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
 }
