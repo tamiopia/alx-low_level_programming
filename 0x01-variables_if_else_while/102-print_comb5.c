@@ -1,51 +1,49 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * main - main block
+ * Description: Write a program that prints all possible
+ * different combinations of two two-digits
+ * Return: 0
  */
 int main(void)
 {
-	int a = 48;
-	int b = 48;
-	int c = 48;
-	int d = 49;
-
-	while (a < 58)
-	{
-		while (b < 58)
-		{
-			while (c < 58)
-			{
-				while (d < 58)
-				{
-					putchar(a);
-					putchar(b);
-					putchar(' ');
-					putchar(c);
-					putchar(d);
-					if (!(a == 57 &&
-						b == 56 &&
-						c == 57 &&
-						d == 57))
-					{
-						putchar(',');
-						putchar(' ');
-					}
-					d++;
-				}
-				c++;
-				d = 48;
-			}
-			b++;
-			b = a;
-			d = b + 1;
-		}
-		a++;
-		b = 48;
-		c = a;
-		d = b + 1;
-	}
-	putchar('\n');
-	return (0);
+int c;
+int d;
+int e;
+int f = 0;
+while (f < 10)
+{
+e = 0;
+while (e < 10)
+{
+d = 0;
+while (d < 10)
+{
+c = 0;
+while (c < 10)
+{
+if (!(f == c && e == d))
+{
+putchar('0' + f);
+putchar('0' + e);
+putchar(' ');
+putchar('0' + d);
+putchar('0' + c);
+if (!(f + e == 18 && c + d == 17 && d == 9))
+{
+putchar(',');
+putchar(' ');
+}
+}
+c++;
+}
+d++;
+}
+e++;
+}
+f++;
+}
+putchar('\n');
+return (0);
 }
