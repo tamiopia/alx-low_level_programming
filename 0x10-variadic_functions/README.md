@@ -1,0 +1,1 @@
+ variadic functions are functions that can accept a variable number of arguments. They are declared with an ellipsis ... in their argument list. The most famous example of a variadic function is printf() from the standard C library. 
