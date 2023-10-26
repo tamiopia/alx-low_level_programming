@@ -1,0 +1,1 @@
+The computer does not understand the high-level language in which we communicate. For these reasons, there was a standard method by which any instruction given to the computer was understood. At an elementary level, each instruction was sent into some digital information known as bits. The series of bits indicates that it is a particular instruction.
